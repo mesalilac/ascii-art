@@ -4,11 +4,6 @@
 
 #include "include/fallback-font.h"
 
-/// font_text: The font file as text
-void parse_font(char *font_text)
-{
-}
-
 int main(int argc, char **argv)
 {
     if (argc <= 1)
@@ -30,7 +25,7 @@ int main(int argc, char **argv)
         strncpy(message, argv[i], strlen(argv[i]) + 1);
     }
 
-    printf("%s\n", FALLBACK_FONT);
+    printf("%s\n", DEFAULT_FONT);
 
     return 0;
 }
