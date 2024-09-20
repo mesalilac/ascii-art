@@ -10,4 +10,4 @@ build:
 	$(CC) $(CFLAGS) $(INCLUDE) -o $(OUT) $(SRCS) $(LIBS)
 
 run: build
-	./$(OUT)
+	./$(OUT) "Test message"
