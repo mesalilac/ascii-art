@@ -13,11 +13,16 @@ int main(int argc, char **argv)
 {
     if (argc <= 1)
     {
-        printf("Missing message!\n");
+        fprintf(stderr, "Missing message!\n");
         exit(1);
     }
 
     char *message = malloc(128 * sizeof(char));
+    if (message == NULL)
+    {
+        fprintf(stderr, "Failed to allocate memory for message!\n");
+        exit(1);
+    }
 
     // Parse args and extract the message
     for (int i = 1; i < argc; ++i)
