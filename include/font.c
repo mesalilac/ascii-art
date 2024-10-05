@@ -8,6 +8,25 @@
 
 #include "font.h"
 
+void font_message_into_ascii_art(Font *font, char *message)
+{
+    for (int line_number = 0; line_number < MAX_CHAR_LINES; ++line_number)
+    {
+        for (int i = 0; i < (int)strlen(message); ++i)
+        {
+            for (int j = 0; j < font->chars_index; ++j)
+            {
+                if (font->chars[j]->ch == message[i])
+                {
+                    printf("%s", font->chars[j]->lines[line_number]);
+                }
+            }
+            printf(" ");
+        }
+        printf("\n");
+    }
+}
+
 char *collect_word(char *data, int *cursor)
 {
     char *word = malloc(128 * sizeof(char));

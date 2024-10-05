@@ -4,8 +4,6 @@
 
 #include "include/font.h"
 
-#define SIZEOF_FONT_FILE 5128
-
 int main(int argc, char **argv)
 {
     char *message = malloc(128 * sizeof(char));
@@ -68,6 +66,8 @@ int main(int argc, char **argv)
 
     font_parse_text(font, data);
     font_debug_info(font);
+
+    font_message_into_ascii_art(font, message);
 
     font_free_all(font);
     free(message);
