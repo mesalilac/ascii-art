@@ -1,7 +1,7 @@
 # convert font.ascii to c code
 
 file_name = "banner-font.ascii"
-const_name = "DEFAULT_FONT_FILE"
+const_name = "DEFAULT_FONT"
 
 
 def main():

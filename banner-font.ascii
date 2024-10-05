@@ -1,16 +1,16 @@
-$CHAR !
+$DECLARATION !
 ###
 ###
 ###
  #
-$EMPTY
+@INSERT_EMPTY_SPACE
 ###
 ###
-$CHAR #
+$DECLARATION #
 ### ###
 ### ###
  #   #
-$CHAR $
+$DECLARATION $
  #####
 #  #  #
 #  #
@@ -18,7 +18,7 @@ $CHAR $
    #  #
 #  #  #
  #####
-$CHAR %
+$DECLARATION %
 ###   #
 # #  #
 ### #
@@ -26,7 +26,7 @@ $CHAR %
   # ###
  #  # #
 #   ###
-$CHAR &
+$DECLARATION &
   ##
  #  #
   ##
@@ -34,13 +34,13 @@ $CHAR &
 #   # #
 #    #
  ###  #
-$CHAR '
+$DECLARATION '
 ###
 ###
  #
 #
-$EMPTY
-$CHAR (
+@INSERT_EMPTY_SPACE
+$DECLARATION (
   ##
  #
 #
@@ -48,7 +48,7 @@ $CHAR (
 #
  #
   ##
-$CHAR )
+$DECLARATION )
 ##
   #
    #
@@ -56,36 +56,36 @@ $CHAR )
    #
   #
 ##
-$CHAR *
+$DECLARATION *
  #   #
   # #
 #######
   # #
  #   #
-$CHAR +
+$DECLARATION +
   #
   #
 #####
   #
   #
-$CHAR ,
-$EMPTY
-$EMPTY
+$DECLARATION ,
+@INSERT_EMPTY_SPACE
+@INSERT_EMPTY_SPACE
 ###
 ###
  #
 #
-$CHAR -
-$EMPTY
+$DECLARATION -
+@INSERT_EMPTY_SPACE
 #####
-$EMPTY
-$CHAR .
-$EMPTY
-$EMPTY
+@INSERT_EMPTY_SPACE
+$DECLARATION .
+@INSERT_EMPTY_SPACE
+@INSERT_EMPTY_SPACE
 ###
 ###
 ###
-$CHAR /
+$DECLARATION /
       #
      #
     #
@@ -93,7 +93,7 @@ $CHAR /
   #
  #
 #
-$CHAR 0
+$DECLARATION 0
   ###
  #   #
 #     #
@@ -101,7 +101,7 @@ $CHAR 0
 #     #
  #   #
   ###
-$CHAR 1
+$DECLARATION 1
   #
  ##
 # #
@@ -109,7 +109,7 @@ $CHAR 1
   #
   #
 #####
-$CHAR 2
+$DECLARATION 2
  #####
 #     #
       #
@@ -117,7 +117,7 @@ $CHAR 2
 #
 #
 #######
-$CHAR 3
+$DECLARATION 3
  #####
 #     #
       #
@@ -125,7 +125,7 @@ $CHAR 3
       #
 #     #
  #####
-$CHAR 4
+$DECLARATION 4
 #
 #    #
 #    #
@@ -133,7 +133,7 @@ $CHAR 4
 #######
      #
      #
-$CHAR 5
+$DECLARATION 5
 #######
 #
 #
@@ -141,7 +141,7 @@ $CHAR 5
       #
 #     #
  #####
-$CHAR 6
+$DECLARATION 6
  #####
 #     #
 #
@@ -149,7 +149,7 @@ $CHAR 6
 #     #
 #     #
  #####
-$CHAR 7
+$DECLARATION 7
 #######
 #    #
     #
@@ -157,7 +157,7 @@ $CHAR 7
   #
   #
   #
-$CHAR 8
+$DECLARATION 8
  #####
 #     #
 #     #
@@ -165,7 +165,7 @@ $CHAR 8
 #     #
 #     #
  #####
-$CHAR 9
+$DECLARATION 9
  #####
 #     #
 #     #
@@ -173,23 +173,23 @@ $CHAR 9
       #
 #     #
  #####
-$CHAR :
+$DECLARATION :
  #
 ###
  #
-$EMPTY
+@INSERT_EMPTY_SPACE
  #
 ###
  #
-$CHAR ;
+$DECLARATION ;
 ###
 ###
-$EMPTY
+@INSERT_EMPTY_SPACE
 ###
 ###
  #
 #
-$CHAR <
+$DECLARATION <
    #
   #
  #
@@ -197,11 +197,11 @@ $CHAR <
  #
   #
    #
-$CHAR =
+$DECLARATION =
 #####
-$EMPTY
+@INSERT_EMPTY_SPACE
 #####
-$CHAR >
+$DECLARATION >
 #
  #
   #
@@ -209,15 +209,15 @@ $CHAR >
   #
  #
 #
-$CHAR ?
+$DECLARATION ?
  #####
 #     #
       #
    ###
    #
-$EMPTY
+@INSERT_EMPTY_SPACE
    #
-$CHAR @
+$DECLARATION @
  #####
 #     #
 # ### #
@@ -225,7 +225,7 @@ $CHAR @
 # ####
 #
  #####
-$CHAR A
+$DECLARATION A
    #
   # #
  #   #
@@ -233,7 +233,7 @@ $CHAR A
 #######
 #     #
 #     #
-$CHAR B
+$DECLARATION B
 ######
 #     #
 #     #
@@ -241,7 +241,7 @@ $CHAR B
 #     #
 #     #
 ######
-$CHAR D
+$DECLARATION D
 ######
 #     #
 #     #
@@ -249,7 +249,7 @@ $CHAR D
 #     #
 #     #
 ######
-$CHAR E
+$DECLARATION E
 #######
 #
 #
@@ -257,7 +257,7 @@ $CHAR E
 #
 #
 #######
-$CHAR F
+$DECLARATION F
 #######
 #
 #
@@ -265,7 +265,7 @@ $CHAR F
 #
 #
 #
-$CHAR G
+$DECLARATION G
  #####
 #     #
 #
@@ -273,7 +273,7 @@ $CHAR G
 #     #
 #     #
  #####
-$CHAR H
+$DECLARATION H
 #     #
 #     #
 #     #
@@ -281,7 +281,7 @@ $CHAR H
 #     #
 #     #
 #     #
-$CHAR I
+$DECLARATION I
 ###
  #
  #
@@ -289,7 +289,7 @@ $CHAR I
  #
  #
 ###
-$CHAR J
+$DECLARATION J
       #
       #
       #
@@ -297,7 +297,7 @@ $CHAR J
 #     #
 #     #
  #####
-$CHAR K
+$DECLARATION K
 #    #
 #   #
 #  #
@@ -305,7 +305,7 @@ $CHAR K
 #  #
 #   #
 #    #
-$CHAR L
+$DECLARATION L
 #
 #
 #
@@ -313,7 +313,7 @@ $CHAR L
 #
 #
 #######
-$CHAR M
+$DECLARATION M
 #     #
 ##   ##
 # # # #
@@ -321,7 +321,7 @@ $CHAR M
 #     #
 #     #
 #     #
-$CHAR N
+$DECLARATION N
 #     #
 ##    #
 # #   #
@@ -329,7 +329,7 @@ $CHAR N
 #   # #
 #    ##
 #     #
-$CHAR O
+$DECLARATION O
 #######
 #     #
 #     #
@@ -337,7 +337,7 @@ $CHAR O
 #     #
 #     #
 #######
-$CHAR P
+$DECLARATION P
 ######
 #     #
 #     #
@@ -345,7 +345,7 @@ $CHAR P
 #
 #
 #
-$CHAR Q
+$DECLARATION Q
  #####
 #     #
 #     #
@@ -353,7 +353,7 @@ $CHAR Q
 #   # #
 #    #
  #### #
-$CHAR R
+$DECLARATION R
 ######
 #     #
 #     #
@@ -361,7 +361,7 @@ $CHAR R
 #   #
 #    #
 #     #
-$CHAR S
+$DECLARATION S
  #####
 #     #
 #
@@ -369,7 +369,7 @@ $CHAR S
       #
 #     #
  #####
-$CHAR T
+$DECLARATION T
 #######
    #
    #
@@ -377,7 +377,7 @@ $CHAR T
    #
    #
    #
-$CHAR U
+$DECLARATION U
 #     #
 #     #
 #     #
@@ -385,7 +385,7 @@ $CHAR U
 #     #
 #     #
  #####
-$CHAR V
+$DECLARATION V
 #     #
 #     #
 #     #
@@ -393,7 +393,7 @@ $CHAR V
  #   #
   # #
    #
-$CHAR W
+$DECLARATION W
 #     #
 #  #  #
 #  #  #
@@ -401,7 +401,7 @@ $CHAR W
 #  #  #
 #  #  #
  ## ##
-$CHAR X
+$DECLARATION X
 #     #
  #   #
   # #
@@ -409,7 +409,7 @@ $CHAR X
   # #
  #   #
 #     #
-$CHAR Y
+$DECLARATION Y
 #     #
  #   #
   # #
@@ -417,7 +417,7 @@ $CHAR Y
    #
    #
    #
-$CHAR Z
+$DECLARATION Z
 #######
      #
     #
@@ -425,7 +425,7 @@ $CHAR Z
   #
  #
 #######
-$CHAR [
+$DECLARATION [
 #####
 #
 #
@@ -433,7 +433,7 @@ $CHAR [
 #
 #
 #####
-$CHAR \
+$DECLARATION \
 #
  #
   #
@@ -441,7 +441,7 @@ $CHAR \
     #
      #
       #
-$CHAR ]
+$DECLARATION ]
 #####
     #
     #
@@ -449,208 +449,208 @@ $CHAR ]
     #
     #
 #####
-$CHAR ^
+$DECLARATION ^
   #
  # #
 #   #
-$EMPTY
-$EMPTY
-$CHAR _
-$EMPTY
-$EMPTY
-$EMPTY
-$EMPTY
-$EMPTY
+@INSERT_EMPTY_SPACE
+@INSERT_EMPTY_SPACE
+$DECLARATION _
+@INSERT_EMPTY_SPACE
+@INSERT_EMPTY_SPACE
+@INSERT_EMPTY_SPACE
+@INSERT_EMPTY_SPACE
+@INSERT_EMPTY_SPACE
 #######
-$CHAR `
+$DECLARATION `
 ###
 ###
  #
   #
 
-$CHAR a
+$DECLARATION a
   ##
  #  #
 #    #
 ######
 #    #
 #    #
-$CHAR b
+$DECLARATION b
 #####
 #    #
 #####
 #    #
 #    #
 #####
-$CHAR c
+$DECLARATION c
  ####
 #    #
 #
 #
 #    #
  ####
-$CHAR d
+$DECLARATION d
 #####
 #    #
 #    #
 #    #
 #    #
 #####
-$CHAR e
+$DECLARATION e
 ######
 #
 #####
 #
 #
 ######
-$CHAR f
+$DECLARATION f
 ######
 #
 #####
 #
 #
 #
-$CHAR g
+$DECLARATION g
  ####
 #    #
 #
 #  ###
 #    #
  ####
-$CHAR h
+$DECLARATION h
 #    #
 #    #
 ######
 #    #
 #    #
 #    #
-$CHAR i
+$DECLARATION i
 #
 #
 #
 #
 #
 #
-$CHAR j
+$DECLARATION j
      #
      #
      #
      #
 #    #
  ####
-$CHAR k
+$DECLARATION k
 #    #
 #   #
 ####
 #  #
 #   #
 #    #
-$CHAR l
+$DECLARATION l
 #
 #
 #
 #
 #
 ######
-$CHAR m
+$DECLARATION m
 #    #
 ##  ##
 # ## #
 #    #
 #    #
 #    #
-$CHAR n
+$DECLARATION n
 #    #
 ##   #
 # #  #
 #  # #
 #   ##
 #    #
-$CHAR o
+$DECLARATION o
  ####
 #    #
 #    #
 #    #
 #    #
  ####
-$CHAR p
+$DECLARATION p
 #####
 #    #
 #    #
 #####
 #
 #
-$CHAR q
+$DECLARATION q
  ####
 #    #
 #    #
 #  # #
 #   #
  ### #
-$CHAR r
+$DECLARATION r
 #####
 #    #
 #    #
 #####
 #   #
 #    #
-$CHAR s
+$DECLARATION s
  ####
 #
  ####
      #
 #    #
  ####
-$CHAR t
+$DECLARATION t
 #####
   #
   #
   #
   #
   #
-$CHAR u
+$DECLARATION u
 #    #
 #    #
 #    #
 #    #
 #    #
  ####
-$CHAR v
+$DECLARATION v
 #    #
 #    #
 #    #
 #    #
  #  #
   ##
-$CHAR w
+$DECLARATION w
 #    #
 #    #
 #    #
 # ## #
 ##  ##
 #    #
-$CHAR x
+$DECLARATION x
 #    #
  #  #
   ##
   ##
  #  #
 #    #
-$CHAR y
+$DECLARATION y
 #   #
  # #
   #
   #
   #
   #
-$CHAR z
+$DECLARATION z
 ######
     #
    #
   #
  #
 ######
-$CHAR {
+$DECLARATION {
   ###
  #
  #
@@ -658,15 +658,15 @@ $CHAR {
  #
  #
   ###
-$CHAR |
+$DECLARATION |
 #
 #
 #
-$EMPTY
+@INSERT_EMPTY_SPACE
 #
 #
 #
-$CHAR }
+$DECLARATION }
 ###
    #
    #
@@ -674,9 +674,9 @@ $CHAR }
    #
    #
 ###
-$CHAR ~
+$DECLARATION ~
  ##
 #  #  #
     ##
-$EMPTY
-$EMPTY
+@INSERT_EMPTY_SPACE
+@INSERT_EMPTY_SPACE
